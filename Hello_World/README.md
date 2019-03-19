@@ -6,7 +6,7 @@ Let’s create a very simple Flask script straight from the official Flask help 
 
 Open a text editor and copy and paste the following code and save it as 'hello.py':
 
-```
+```python
 from flask import Flask
 app = Flask(__name__)
  
@@ -49,14 +49,14 @@ Copy and drop the local URL address into your browser. You should see a very sim
 
 You have just create a server-generated web page. There is an even easier way you can get your Flask app up-and-running locally by adding the following two lines to the end of your "hello.py" script. This only works for locally servered pages, but allows the script itself to run the instantiated Flask application and allows you to skip the exporting step:
 
-```
+```python
 if __name__ == '__main__':
     app.run(debug=True)
 ```
 
 Save the amended "hello.py" script which should look like:
 
-```
+```python
 from flask import Flask
 app = Flask(__name__)
 
