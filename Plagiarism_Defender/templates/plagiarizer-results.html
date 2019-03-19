@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title>Plagiarism Defender</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    </head>
+      <body style = "background-color: black; padding-top: 10px; ">
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+          <div class="container">
+            <div class="navbar-header">
+                <H1><font color="white" style="color:white">Plagiarism Defender</font></H1>
+            </div>
+          </div>
+        </nav>
+
+        <div class="container">
+            <table cellpadding="10" cellspacing="10" bgcolor="white"  style="background-color:white">
+            <tr>
+              <td>
+                In our best opinion, the text you entered is <strong>{{is_it_plagiarized}}</strong> plagiarized!
+             </td>
+            </tr>
+            <tr>
+             <td>
+                Text Entered: <br><br><strong>{{text_to_filter}}</strong>
+             </td>
+            </tr>
+        </div>
+    </body>
+</html>
