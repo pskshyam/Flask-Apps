@@ -41,10 +41,10 @@ For additional information, issues with Jupyter notebooks and attaching kernels,
 
 Using a virtual environment offers many advantages:
 
-** Creates an environment with no installed Python libraries
-** Know exactly which Python libraries are required for your application to run
-** Keeps the rest of your computer system safe from any Python libraries you install in this environment
-** Encourages experimentation
+* Creates an environment with no installed Python libraries
+* Know exactly which Python libraries are required for your application to run
+* Keeps the rest of your computer system safe from any Python libraries you install in this environment
+* Encourages experimentation
 
 To start a virtual environment, use the "venv" command. If it isn't installed on your computer, it is recommended you do so (it is available via common installers such as pip, conda, brew, etc). For more information on installing virtual environments for your OS, see the "venv - Creation of virtual environments" user guide: https://docs.python.org/3/library/venv.html
 
