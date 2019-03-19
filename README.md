@@ -83,3 +83,5 @@ Memberful is the plugin we will work with and implement here. I personally reall
 It is also one of the few that will allow you to sell products, sell subscriptions, check if a visitor is a currently paid up customer, all the while giving the impression that you are never leaving your site. Yet no user financial information, credit card processing, etc ever, ever happens on the site!
 
 For additional information see www.memberful.com
+
+Source: https://ml-entrepreneur.teachable.com
