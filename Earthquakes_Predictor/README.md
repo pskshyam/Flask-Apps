@@ -31,6 +31,12 @@ You will need to create a free Google Maps API Key. In this project, we're going
 
 The skeleton will be a little like the pervious project of having one "main.py" web-serving Python file that will prepare data and data model adn will also control web content. We will also have on additional folder called 'template' to hold the web template.
 
+## Worldwide Earthquake Forecaster
+
+A look at our final product:
+
+![alt text](./static/images/earthquakepredictor.png "Earthquake Predictor")
+
 ## Flask Source Code
 We wil work with only two files - main.py and index.html. Create the following folder structure:
 
